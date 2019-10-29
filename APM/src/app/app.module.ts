@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { StarComponent } from './shared/star.component';
 import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
 import { ProductListComponent } from './products/product-list.component';
@@ -15,7 +16,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   bootstrap: [ AppComponent ]
 })

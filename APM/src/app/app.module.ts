@@ -8,7 +8,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { ProductDetailComponent } from './product/product-detail.component';
+import { ProductDetailComponent } from './products/product-detail.component';
 import { ProductDetailGuard } from './products/product-detail.guard';
 
 @NgModule({

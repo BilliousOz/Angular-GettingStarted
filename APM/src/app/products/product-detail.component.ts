@@ -3,7 +3,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 import { IProduct } from './product';
 import { ProductService } from './product.service';
-import { FnParam } from '@angular/compiler/src/output/output_ast';
 
 @Component({
   templateUrl: './product-detail.component.html',
